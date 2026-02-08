@@ -15,6 +15,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color:#233e50 ;
+    width:100%;
+    height: 70px;
     
 }
 
@@ -39,6 +41,7 @@ ul{
 
 a{
  color: #fff;
+ text-decoration: none;
 }
 
 a:hover{
@@ -53,6 +56,27 @@ a:hover{
     height: 30px;
     background-color: #34d665;
     align-items: center;
+}
+
+.about{
+    width: 100%;
+    height: 400px;
+    background-color: #0a2640;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    gap: 2rem;
+    font-weight: 600;
+}
+
+.about h2{
+    font-size: 40px;
+}
+
+.about p{
+    font-size: 3opx;
+    opacity: 0.5;
 }
 
 
